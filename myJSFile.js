@@ -1,5 +1,5 @@
 /**
- * Created by Роман on 07.08.2022.
+ * Created by Меленцевич Роман on 01.09.2022.
  */
 
 var exam1 = {
@@ -27,8 +27,8 @@ var exam5 = {
     mark: 10
 };
 
-var sumOfTheMarksOfTheFirstFiveExams = exam1.mark+exam2.mark+exam3.mark+exam4.mark+exam5.mark;
-console.log(sumOfTheMarksOfTheFirstFiveExams/5);
+var sumOfTheMarksOfFirstFiveExams = exam1.mark+exam2.mark+exam3.mark+exam4.mark+exam5.mark;
+console.log(sumOfTheMarksOfFirstFiveExams/5);
 
 var exam6 = {
     name: "Функциональный анализ и интегральные уравнения",
@@ -55,8 +55,8 @@ var exam10 = {
     mark: 10
 };
 
-var sumOfTheMarksOfTheSecondGroupOfFiveExams = exam6.mark+exam7.mark+exam8.mark+exam9.mark+exam10.mark;
-console.log(sumOfTheMarksOfTheSecondGroupOfFiveExams/5);
+var sumOfTheMarksOfSecondGroupOfFiveExams = exam6.mark+exam7.mark+exam8.mark+exam9.mark+exam10.mark;
+console.log(sumOfTheMarksOfSecondGroupOfFiveExams/5);
 
 var exam11 = {
     name: "Уравнения математической физики",
@@ -83,8 +83,8 @@ var exam15 = {
     mark: 10
 };
 
-var sumOfTheMarksOfTheThirdGroupOfFiveExams = exam11.mark+exam12.mark+exam13.mark+exam14.mark+exam15.mark;
-console.log((sumOfTheMarksOfTheFirstFiveExams + sumOfTheMarksOfTheSecondGroupOfFiveExams + sumOfTheMarksOfTheThirdGroupOfFiveExams)/15);
+var sumOfTheMarksOfThirdGroupOfFiveExams = exam11.mark+exam12.mark+exam13.mark+exam14.mark+exam15.mark;
+console.log((sumOfTheMarksOfFirstFiveExams + sumOfTheMarksOfSecondGroupOfFiveExams + sumOfTheMarksOfThirdGroupOfFiveExams)/15);
 
 var exam16 = {
     name: "Исследование операций",
@@ -111,8 +111,8 @@ var exam20 = {
     mark: 10
 };
 
-var sumOfTheMarksOfTheFourthGroupOfFiveExams = exam16.mark+exam17.mark+exam18.mark+exam19.mark+exam20.mark;
-console.log((sumOfTheMarksOfTheFirstFiveExams + sumOfTheMarksOfTheSecondGroupOfFiveExams + sumOfTheMarksOfTheThirdGroupOfFiveExams + sumOfTheMarksOfTheFourthGroupOfFiveExams)/20);
+var sumOfTheMarksOfFourthGroupOfFiveExams = exam16.mark+exam17.mark+exam18.mark+exam19.mark+exam20.mark;
+console.log((sumOfTheMarksOfFirstFiveExams + sumOfTheMarksOfSecondGroupOfFiveExams + sumOfTheMarksOfThirdGroupOfFiveExams + sumOfTheMarksOfFourthGroupOfFiveExams)/20);
 
 var exam21 = {
     name: "Имитационное и статистическое моделирование",
@@ -139,9 +139,9 @@ var exam25 = {
     mark: 9
 };
 
-var sumOfTheMarksOfTheFifthGroupOfFiveExams = exam21.mark+exam22.mark+exam23.mark+exam24.mark+exam25.mark;
-console.log((sumOfTheMarksOfTheFirstFiveExams + sumOfTheMarksOfTheSecondGroupOfFiveExams + sumOfTheMarksOfTheThirdGroupOfFiveExams
-    + sumOfTheMarksOfTheFourthGroupOfFiveExams + sumOfTheMarksOfTheFifthGroupOfFiveExams)/25);
+var sumOfTheMarksOfFifthGroupOfFiveExams = exam21.mark+exam22.mark+exam23.mark+exam24.mark+exam25.mark;
+console.log((sumOfTheMarksOfFirstFiveExams + sumOfTheMarksOfSecondGroupOfFiveExams + sumOfTheMarksOfThirdGroupOfFiveExams
+    + sumOfTheMarksOfFourthGroupOfFiveExams + sumOfTheMarksOfFifthGroupOfFiveExams)/25);
 
 var exam26 = {
     name: "Арифметические основы криптографии",
@@ -173,8 +173,8 @@ var exam31 = {
     mark: 9
 };
 var sumOfTheMarksOfTheSixthGroupOfFiveExams = exam26.mark+exam27.mark+exam28.mark+exam29.mark+exam30.mark;
-console.log((sumOfTheMarksOfTheFirstFiveExams + sumOfTheMarksOfTheSecondGroupOfFiveExams + sumOfTheMarksOfTheThirdGroupOfFiveExams
-    + sumOfTheMarksOfTheFourthGroupOfFiveExams + sumOfTheMarksOfTheFifthGroupOfFiveExams + sumOfTheMarksOfTheSixthGroupOfFiveExams)/30);
+console.log((sumOfTheMarksOfFirstFiveExams + sumOfTheMarksOfSecondGroupOfFiveExams + sumOfTheMarksOfThirdGroupOfFiveExams
+    + sumOfTheMarksOfFourthGroupOfFiveExams + sumOfTheMarksOfFifthGroupOfFiveExams + sumOfTheMarksOfTheSixthGroupOfFiveExams)/30);
 
 
 var byExamNumberOne = {
@@ -203,5 +203,5 @@ var byExamNumberFive = {
 };
 
 var sumOfTheMarksForFiveByExams = byExamNumberOne.mark+byExamNumberTwo.mark+byExamNumberThree.mark+byExamNumberFour.mark+byExamNumberFive.mark;
-console.log((sumOfTheMarksOfTheFirstFiveExams + sumOfTheMarksOfTheSecondGroupOfFiveExams + sumOfTheMarksOfTheThirdGroupOfFiveExams
-    + sumOfTheMarksOfTheFourthGroupOfFiveExams + sumOfTheMarksOfTheFifthGroupOfFiveExams + sumOfTheMarksOfTheSixthGroupOfFiveExams + exam31.mark + sumOfTheMarksForFiveByExams)/36);
+console.log((sumOfTheMarksOfFirstFiveExams + sumOfTheMarksOfSecondGroupOfFiveExams + sumOfTheMarksOfThirdGroupOfFiveExams
+    + sumOfTheMarksOfFourthGroupOfFiveExams + sumOfTheMarksOfFifthGroupOfFiveExams + sumOfTheMarksOfTheSixthGroupOfFiveExams + exam31.mark + sumOfTheMarksForFiveByExams)/36);
